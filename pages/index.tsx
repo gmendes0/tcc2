@@ -15,7 +15,7 @@ export default function Home() {
           direction="row"
           py="100px"
         >
-          <DashboardCard title="Marcas" link="#brands">
+          <DashboardCard title="Marcas" link="/brands">
             <FiFlag size={85} />
           </DashboardCard>
           <DashboardCard title="Products" link="#products">

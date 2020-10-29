@@ -30,7 +30,7 @@ const Login: React.FC = () => {
           justify="space-between"
           rounded="lg"
           shadow="lg"
-          minW="350px"
+          w={["90%", "350px", "350px", "350px"]}
           minH="350px"
           padding="25px"
           bg="white"
@@ -38,13 +38,8 @@ const Login: React.FC = () => {
           <Heading as="h1">Login</Heading>
 
           <Box w="100%">
-            <Input my="10px" type="text" id="email" placeholder="Your email" />
-            <Input
-              my="10px"
-              type="password"
-              id="password"
-              placeholder="Your password"
-            />
+            <Input my="10px" type="text" placeholder="Your email" />
+            <Input my="10px" type="password" placeholder="Your password" />
           </Box>
 
           <Flex w="100%" direction="column" align="center">
